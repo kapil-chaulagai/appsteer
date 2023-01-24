@@ -43,7 +43,10 @@ body {
   border: none;
   background: none;
 }
-
+.close-modal:hover {
+  background-image: none;
+  color: #ef2b2b;
+}
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;

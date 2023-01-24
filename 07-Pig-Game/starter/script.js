@@ -23,15 +23,23 @@ function init() {
   playing = true;
   scores = [0, 0];
 
+<<<<<<< HEAD
+=======
+  name0El.textContent = 'Player 1';
+  name1El.textContent = 'Player 2';
+>>>>>>> d45f1298b99ba4e8c81c52369aea6eadd875010a
   score0El.textContent = 0;
   score1El.textContent = 0;
   current0El.textContent = 0;
   current1El.textContent = 0;
   diceEl.classList.add('hidden');
 
+<<<<<<< HEAD
   document.getElementById(`name--${activePlayer}`).textContent = `Player ${
     activePlayer + 1
   }`;
+=======
+>>>>>>> d45f1298b99ba4e8c81c52369aea6eadd875010a
   diceEl.classList.add('hidden');
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
